@@ -9,8 +9,8 @@ The project will demonstrate the following features of HTML:
 
 2. HTML Links -- both relative, and absolute.
 
-3. Use of HTML tags, such as <h1> and <p> and formatting tags like <em> and <strong>
+3. Use of HTML tags.
 
-4. Use of images <img>
+4. Use of images
 
-5. The user should be able to navigate between all pages via navigation links.s
+5. The user should be able to navigate between all pages via navigation links.
