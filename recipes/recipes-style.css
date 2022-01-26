@@ -1,0 +1,5 @@
+body {}
+
+h1 {
+    animation:cubic-bezier(1, 0, 0, 1);
+}
