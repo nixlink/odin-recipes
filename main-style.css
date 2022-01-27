@@ -1,9 +1,23 @@
-h1 {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Pacifico', serif;
+    color: #185278;
+}
+.image_credit { 
+    margin-top: 0px;
+    font-size: xx-small;}
+
+.headerLogo {
     position: relative;
     animation-name: slidein;
     animation-duration: 2s;
     animation-delay: 100ms;
 }
+
+
 
 .recipes {
     background-color: white;
