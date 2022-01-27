@@ -1,6 +1,32 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
+
+.header{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+.main_image{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main_image img{
+    size: 50%;
+    margin: auto;
+}
+
+.main_image p {
+    margin: auto;
+}
+
+
 
 h2 {
     font-family: 'Pacifico', serif;
@@ -8,28 +34,48 @@ h2 {
 }
 .image_credit { 
     margin-top: 0px;
+    margin-bottom: 5px;
     font-size: xx-small;}
 
-.headerLogo {
-    position: relative;
-    animation-name: slidein;
-    animation-duration: 2s;
-    animation-delay: 100ms;
+
+
+
+
+
+.recipes h2{
+    margin-top: 10px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    margin:auto;   
+}
+
+.recipes ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+
+.recipes li {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    display:block;
+}
+
+.recipes a {
+    text-decoration:  none;
+    display:block;
+    transition: all 0.3s ease-out;
+    
+}
+.recipes a:hover{
+    color:cadetblue;
+    transform: scale(1.1);
 }
 
 
-
-.recipes {
-    background-color: white;
-    overflow: hidden;
-    animation-name: slide-up;
-    animation-duration: 2s;
-    animation-delay: 100ms;
-}
-
-
-
-
+/*
 
 @keyframes slidein {
     0% {  right: 0%; left: 100%;
@@ -39,7 +85,7 @@ h2 {
     50% { right: 50%; left: 50%;
         }
     75% { right: 75%;   left: 25%;
-           }*/
+           }
     100% { right: 100%; left:0%; 
         }
 }
@@ -59,3 +105,5 @@ h2 {
       margin-top: 0%;
       height: 100%;
     }
+    
+*/
