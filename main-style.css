@@ -3,23 +3,36 @@ body {
     margin: 0;
 }
 
+a:link, a:visited {
+    color: #65a0c7
+}
+
 .header{
     background-color: beige;
     display: flex;
     justify-content: center;
 }
 
+@keyframes fadein {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
 .main_image{
     margin-top: 10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    background-color: blue;
+    background-image: url(/images/lasagna.jpg);
+    width: 300px;
+    /*height: fit-content;*/
     
 }
 
 .main_image img{
     size: 50%;
     margin: auto;
+    animation: fadein 3s;
 }
 
 .main_image p {
@@ -57,10 +70,13 @@ h2 {
     justify-content: center;}
 
 .recipes li {
+    background-color: beige;
+    border-radius: .5em;
     padding: 10px;
     text-decoration: none;
     list-style: none;
     display:block;
+    margin: 0 5px 0 5px;
 }
 
 .recipes a {
@@ -70,7 +86,7 @@ h2 {
     
 }
 .recipes a:hover{
-    color:cadetblue;
+    color: #185278;
     transform: scale(1.1);
 }
 
